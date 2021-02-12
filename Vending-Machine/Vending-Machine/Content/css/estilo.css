@@ -1,0 +1,74 @@
+﻿body {
+    background-color: lightskyblue;
+}
+
+#soda{
+    width: 120px;
+    height:220px;
+}
+
+#papas, #cafe{
+    width: 220px;
+    height: 120px;
+    margin-top: 50px;
+    margin-bottom:50px
+}
+#productos{
+    width: 70%;
+    padding-top: 2%;
+    padding-left: 15%;
+    display: block;
+}
+#productos div {
+    float: left;
+    /*border: solid black 1px;*/
+    text-align: center;
+    margin-right: 8%;
+    padding-bottom: 20px;
+}
+#productos div h3 {
+    font-weight:bold;
+}
+#productos button{
+    color:white;
+    background-color: limegreen;
+    border:none;
+    padding: 3px;
+    border-radius: 3px 4px;
+    width: 70px;
+} 
+#total{
+    width: 20%;
+    border:solid black;
+    float:left;
+    text-align: center;
+    margin-left: 7%;
+    
+}
+#listado {
+    /*border: solid;*/
+    margin-top: 21%;
+    padding-left: 5%;
+    
+}
+    #listado #pedidos {
+        /*border: solid;*/
+        width: 30%;
+        text-align: center;
+    }
+#listado p, #total p {
+    color: white;
+}
+
+    #listado #preparacion {
+        width: 30%;
+        /*border: solid;*/
+        text-align: center;
+        margin-left: 35%;
+    }
+#listado div {
+    float:left;
+}
+#finish{
+    color: white;
+}
