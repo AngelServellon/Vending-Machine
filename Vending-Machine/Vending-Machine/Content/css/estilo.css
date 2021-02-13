@@ -2,16 +2,15 @@
     background-color: lightskyblue;
 }
 
-#soda{
-    width: 120px;
-    height:220px;
+#soda, #papas {
+    width: 150px;
+    height: 220px;
 }
 
-#papas, #cafe{
+#cafe {
     width: 220px;
-    height: 120px;
-    margin-top: 50px;
-    margin-bottom:50px
+    height: 200px;
+    margin-bottom: 15px;
 }
 #productos{
     width: 70%;
@@ -23,7 +22,7 @@
     float: left;
     /*border: solid black 1px;*/
     text-align: center;
-    margin-right: 8%;
+    margin-right: 10%;
     padding-bottom: 20px;
 }
 #productos div h3 {
@@ -39,7 +38,7 @@
 } 
 #total{
     width: 20%;
-    border:solid black;
+    /*border:solid black;*/
     float:left;
     text-align: center;
     margin-left: 7%;
@@ -60,15 +59,34 @@
     color: white;
 }
 
-    #listado #preparacion {
-        width: 30%;
-        /*border: solid;*/
-        text-align: center;
-        margin-left: 35%;
-    }
+#listado #preparacion {
+    width: 30%;
+    /*border: solid;*/
+    text-align: center;
+    margin-left: 35%;
+    margin-top: -5%;
+    height: 400px;
+}
 #listado div {
     float:left;
 }
 #finish{
     color: white;
+}
+#preparacion img{
+    padding: 0;
+    margin:0;
+    width: 220px;
+    height: 200px;
+}
+#orden p{
+    margin-bottom:0;
+}
+#ordenados {
+    position: relative;
+    left: 40%;
+}
+hr{
+    width: 50%;
+    border-color: black;
 }

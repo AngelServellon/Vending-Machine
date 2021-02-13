@@ -94,8 +94,9 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\css\estilo.css" />
     <Content Include="Content\img\cafe.png" />
-    <Content Include="Content\img\papas.png" />
+    <Content Include="Content\img\cargar.gif" />
     <Content Include="Content\img\soda.png" />
+    <Content Include="Content\img\papas.png" />
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -107,6 +108,7 @@
     <Content Include="Scripts\jquery-3.4.1.slim.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\procesos.js" />
     <Content Include="Web.config" />
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>

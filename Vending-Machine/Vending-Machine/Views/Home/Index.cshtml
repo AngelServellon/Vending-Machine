@@ -9,25 +9,25 @@
         <div>
             <img src="~/Content/img/soda.png" id="soda" />
             <h3>$1.50</h3>
-            <button>Order</button>
+            <button id="sodaB" onclick="agregarSoda()">Order</button>
         </div>
         <div>
             <img src="~/Content/img/papas.png" id="papas" />
             <h3>$0.50</h3>
-            <button>Order</button>
+            <button id="papasB" onclick="agregarPapas()">Order</button>
         </div>
         <div>
             <img src="~/Content/img/cafe.png" id="cafe" />
-            <h3>$0.50</h3>
-            <button>Order</button>
+            <h3>$0.75</h3>
+            <button id="cafeB" onclick="agregarCafe()">Order</button>
         </div>
     </div>
     
     <div id="total">
         <h4>Your Order</h4>
-        <p></p>
-        <h3>---------------------------------------</h3>
-        <p>Total</p>
+        <div id="orden"></div>
+        <hr />
+        <p id="pagar"></p>
 
     </div>
 </div>
@@ -35,14 +35,16 @@
     <div id="pedidos">
         <h3>Dispatched<br />Products</h3>
         
-        <p>Product   $0.50</p>
+        <div id="ordenados" class="center-block">
+            <p>Product   $0.50</p>
+        </div>
     </div>
     <div id="preparacion">
         <h3>Preparing</h3>
         <h3></h3>
-        <h3>-----------------------------------------</h3>
+        <hr />
         <h3 id="finish">Finished</h3>
-        <img src="~/Content/img/papas.png" id="papas" />
+        <img src="~/Content/img/cafe.png"/>
     </div>
 </div>
 
