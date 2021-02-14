@@ -20,7 +20,6 @@
 }
 #productos div {
     float: left;
-    /*border: solid black 1px;*/
     text-align: center;
     margin-right: 10%;
     padding-bottom: 20px;
@@ -38,7 +37,7 @@
 } 
 #total{
     width: 20%;
-    /*border:solid black;*/
+    border:solid;
     float:left;
     text-align: center;
     margin-left: 7%;
@@ -51,7 +50,7 @@
     
 }
     #listado #pedidos {
-        /*border: solid;*/
+        border: solid;
         width: 30%;
         text-align: center;
     }
@@ -70,7 +69,11 @@
 #listado div {
     float:left;
 }
-#finish{
+.ocultar{
+    display: none;
+}
+.mostrar{
+    display: block;
     color: white;
 }
 #preparacion img{
@@ -84,9 +87,20 @@
 }
 #ordenados {
     position: relative;
-    left: 40%;
+    left: 35%;
 }
+#ordenados p{
+    margin-bottom: 0;
+}
+
 hr{
     width: 50%;
     border-color: black;
+}
+
+.mostraimg{
+    display: block;
+}
+.ocultarimg {
+    display: none;
 }

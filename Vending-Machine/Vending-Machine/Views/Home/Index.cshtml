@@ -22,7 +22,7 @@
             <button id="cafeB" onclick="agregarCafe()">Order</button>
         </div>
     </div>
-    
+
     <div id="total">
         <h4>Your Order</h4>
         <div id="orden"></div>
@@ -34,18 +34,18 @@
 <div id="listado">
     <div id="pedidos">
         <h3>Dispatched<br />Products</h3>
-        
-        <div id="ordenados" class="center-block">
-            <p>Product   $0.50</p>
-        </div>
+
+        <div id="ordenados" class="center-block"></div>
     </div>
     <div id="preparacion">
         <h3>Preparing</h3>
-        <h3></h3>
+        <h3 id="segs" class="ocultar"></h3>
+        <h3 id="secsleft" class="ocultar">Secs Left</h3>
         <hr />
-        <h3 id="finish">Finished</h3>
-        <img src="~/Content/img/cafe.png"/>
+        <h3 id="terminado" class="mostrar">Finished</h3>
+        <img src="~/Content/img/cargar.gif" class="ocultarimg" id="cargar" />
+        <img src="~/Content/img/soda.png" class="ocultarimg" id="sodafin" />
+        <img src="~/Content/img/papas.png" class="ocultarimg" id="papasfin" />
+        <img src="~/Content/img/cafe.png" class="ocultarimg" id="cafefin" />
     </div>
 </div>
-
-
