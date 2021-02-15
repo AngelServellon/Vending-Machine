@@ -1,4 +1,10 @@
-﻿//Elementos del area your order 
+﻿//Botones Order
+var sodaB = document.getElementById('sodaB');
+var papasB = document.getElementById('papasB');
+var cafeB = document.getElementById('cafeB');
+
+
+//Elementos del area your order
 var orden = document.getElementById('orden');
 var pagar = document.getElementById('pagar');
 var ordenados = document.getElementById('ordenados');
@@ -40,6 +46,11 @@ function preparasoda() {
         terminado.classList.remove("ocultar");
         terminado.classList.add("mostrar");
 
+        //Habilitar los botones
+        sodaB.disabled = false;
+        papasB.disabled = false;
+        cafeB.disabled = false;
+
         //Agregar el producto a la lista de agregados
         var node = document.createElement("p");
         var textnode = document.createTextNode("Pepsi - $ 1.50");
@@ -58,6 +69,11 @@ function preparasoda() {
 
         timesoda = 2;
     } else {
+        //Desabilitar todos los botones
+        sodaB.disabled = true;
+        papasB.disabled = true;
+        cafeB.disabled = true;
+
         //poner gif de carga
         cargar.classList.remove("ocultarimg");
         cargar.classList.add("mostrarimg");
@@ -80,14 +96,19 @@ function preparapapas() {
     terminado.classList.remove("mostrar");
     terminado.classList.add("ocultar");
 
-    segs.innerHTML = timesoda;
-    if (timesoda == 0) {
+    segs.innerHTML = timepapas;
+    if (timepapas == 0) {
         segs.classList.remove("mostrar");
         segs.classList.add("ocultar");
         secsleft.classList.remove("mostrar");
         secsleft.classList.add("ocultar");
         terminado.classList.remove("ocultar");
         terminado.classList.add("mostrar");
+
+        //Habilitar los botones
+        sodaB.disabled = false;
+        papasB.disabled = false;
+        cafeB.disabled = false;
 
         //Agregar el producto a la lista de agregados
         var node = document.createElement("p");
@@ -105,8 +126,13 @@ function preparapapas() {
         cafefin.classList.remove("mostrarimg");
         cafefin.classList.add("ocultarimg");
 
-        timesoda = 6;
+        timepapas = 6;
     } else {
+        //Desabilitar todos los botones
+        sodaB.disabled = true;
+        papasB.disabled = true;
+        cafeB.disabled = true;
+
         //poner gif de carga
         cargar.classList.remove("ocultarimg");
         cargar.classList.add("mostrarimg");
@@ -117,7 +143,7 @@ function preparapapas() {
         cafefin.classList.remove("mostrarimg");
         cafefin.classList.add("ocultarimg");
 
-        timesoda -= 1;
+        timepapas -= 1;
         setTimeout("preparapapas()", 1000);
     }
 }
@@ -138,6 +164,11 @@ function preparacafe() {
         terminado.classList.remove("ocultar");
         terminado.classList.add("mostrar");
 
+        //Habilitar los botones
+        sodaB.disabled = false;
+        papasB.disabled = false;
+        cafeB.disabled = false;
+
         //Agregar el producto a la lista de agregados
         var node = document.createElement("p");
         var textnode = document.createTextNode("Cafe negro - $ 0.75");
@@ -156,6 +187,11 @@ function preparacafe() {
         
         timecafe = 10;
     } else {
+        //Desabilitar todos los botones
+        sodaB.disabled = true;
+        papasB.disabled = true;
+        cafeB.disabled = true;
+
         //poner gif de carga
         cargar.classList.remove("ocultarimg");
         cargar.classList.add("mostrarimg");

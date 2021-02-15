@@ -9,17 +9,17 @@
         <div>
             <img src="~/Content/img/soda.png" id="soda" />
             <h3>$1.50</h3>
-            <button id="sodaB" onclick="agregarSoda()">Order</button>
+            <input type="button" id="sodaB" onclick="agregarSoda()" value="Order" />
         </div>
         <div>
             <img src="~/Content/img/papas.png" id="papas" />
             <h3>$0.50</h3>
-            <button id="papasB" onclick="agregarPapas()">Order</button>
+            <input type="button" id="papasB" onclick="agregarPapas()" value="Order" />
         </div>
         <div>
             <img src="~/Content/img/cafe.png" id="cafe" />
             <h3>$0.75</h3>
-            <button id="cafeB" onclick="agregarCafe()">Order</button>
+            <input type="button" id="cafeB" onclick="agregarCafe()" value="Order" />
         </div>
     </div>
 
@@ -34,7 +34,7 @@
 <div id="listado">
     <div id="pedidos">
         <h3>Dispatched<br />Products</h3>
-
+        <hr />
         <div id="ordenados" class="center-block"></div>
     </div>
     <div id="preparacion">

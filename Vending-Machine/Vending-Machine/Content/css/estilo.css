@@ -27,10 +27,10 @@
 #productos div h3 {
     font-weight:bold;
 }
-#productos button{
-    color:white;
+#sodaB, #papasB, #cafeB{
+    color: white;
     background-color: limegreen;
-    border:none;
+    border: none;
     padding: 3px;
     border-radius: 3px 4px;
     width: 70px;
@@ -45,15 +45,16 @@
 }
 #listado {
     /*border: solid;*/
-    margin-top: 21%;
+    margin-top: 22%;
     padding-left: 5%;
     
 }
-    #listado #pedidos {
-        border: solid;
-        width: 30%;
-        text-align: center;
-    }
+#pedidos{
+    margin-left: 5%;
+    border: solid;
+    width: 20%;
+    text-align: center;
+}
 #listado p, #total p {
     color: white;
 }
@@ -62,9 +63,7 @@
     width: 30%;
     /*border: solid;*/
     text-align: center;
-    margin-left: 35%;
-    margin-top: -5%;
-    height: 400px;
+    margin-left: 40%;
 }
 #listado div {
     float:left;
@@ -79,7 +78,7 @@
 #preparacion img{
     padding: 0;
     margin:0;
-    width: 220px;
+    width: 180px;
     height: 200px;
 }
 #orden p{
@@ -87,7 +86,8 @@
 }
 #ordenados {
     position: relative;
-    left: 35%;
+    left: 23%;
+    margin-bottom: 20px;
 }
 #ordenados p{
     margin-bottom: 0;
@@ -103,4 +103,8 @@ hr{
 }
 .ocultarimg {
     display: none;
+}
+
+p{
+    font-size: 15px;
 }
