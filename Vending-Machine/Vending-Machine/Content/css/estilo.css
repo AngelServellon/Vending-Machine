@@ -98,12 +98,6 @@ hr{
     border-color: black;
 }
 
-.mostraimg{
-    display: block;
-}
-.ocultarimg {
-    display: none;
-}
 
 p{
     font-size: 15px;
